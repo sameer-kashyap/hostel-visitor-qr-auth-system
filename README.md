@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# 🔐 Hostel Visitor QR Authentication System
 
-## Project info
+A **QR-based Visitor Authentication System** designed for hostels, where visitors must scan a QR code and fill in their details before entering the premises.  
+This ensures **better security, proper record keeping, and safer hostel management**.
 
-**URL**: https://lovable.dev/projects/b331f6ab-acc8-4dde-852e-150608e2b2cd
+---
 
-## How can I edit this code?
+## 🌐 Live Project Link
 
-There are several ways of editing your application.
+👉 **Live App**:  
+https://lovable.dev/projects/b331f6ab-acc8-4dde-852e-150608e2b2cd
 
-**Use Lovable**
+👉 **Lovable Project Workspace**:  
+https://lovable.dev/projects/b331f6ab-acc8-4dde-852e-150608e2b2cd
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b331f6ab-acc8-4dde-852e-150608e2b2cd) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Problem Statement
 
-**Use your preferred IDE**
+Traditional visitor entry systems rely on **manual registers**, which:
+- Are error-prone
+- Can be manipulated
+- Do not provide reliable historical records
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This project solves the problem by introducing a **digital, QR-based authentication system** that ensures every visitor is logged before entering the hostel.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Project Overview
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**How it works:**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. A QR code is placed at the hostel entrance  
+2. Visitor scans the QR code  
+3. A web form opens  
+4. Visitor fills in required details  
+5. Data is stored securely in the backend  
+6. Hostel owner can track visitor entries anytime  
 
-# Step 3: Install the necessary dependencies.
-npm i
+This helps prevent unauthorized access and improves overall safety.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🛠️ Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is built using:
 
-**Use GitHub Codespaces**
+- **React.js** – Frontend UI
+- **Supabase** – Backend (Database & Auth)
+- **TypeScript**
+- **Tailwind CSS**
+- **shadcn-ui**
+- **Vite**
+- **Lovable.dev** – Vibe coding & rapid development
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## ✨ Features
 
-This project is built with:
+- QR-based visitor entry system
+- Responsive and modern UI
+- Visitor information form
+- Secure backend using Supabase
+- Real-time data storage
+- Practical real-world use case
+- Scalable architecture
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📂 Project Structure (Simplified)
 
-Simply open [Lovable](https://lovable.dev/projects/b331f6ab-acc8-4dde-852e-150608e2b2cd) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── styles/
+└── main.tsx
